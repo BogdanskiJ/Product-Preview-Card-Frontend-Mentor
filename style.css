@@ -139,6 +139,15 @@ body {
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
+		cursor: pointer;
+		transition: 0.3s ease-in-out;
+
+		&:hover {
+			background: hsl(158, 36%, 27%);
+		}
+		&:active {
+			background: hsl(158, 36%, 17%);
+		}
 
 		&::before {
 			content: url("./images/icon-cart.svg");
